@@ -1,0 +1,32 @@
+# Go编译产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+notification-service
+
+# 测试二进制
+*.test
+
+# 性能分析文件
+*.pprof
+
+# 日志目录
+logs/
+*.log
+
+# IDE配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 配置文件（包含敏感信息，建议提交example模板）
+config/config.yaml
+config/*.local.yaml
+
+# OS文件
+.DS_Store
+Thumbs.db
